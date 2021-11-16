@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Black friday",
+    "colorClass": "blackfriday"
+  },
+  {
+    "id": 2,
+    "name": "Shopping mania",
+    "colorClass": "shoppingmania"
+  }
+]

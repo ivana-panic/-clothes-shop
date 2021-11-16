@@ -1,0 +1,39 @@
+.blackFriday {
+  color: aqua;
+  background: black;
+}
+.shoppingmania {
+  color: brown;
+  background: cadetblue;
+}
+#wrappMenu {
+  margin: 0 auto;
+  text-align: center;
+}
+#productRow {
+  margin-top: 50px;
+}
+#formReg {
+  margin-top: 100px;
+}
+#colorTitleName {
+  color: red;
+}
+#menuClass {
+  text-decoration: none;
+  color: black;
+  font: 1.2em "Fira Sans", sans-serif;
+}
+#submit {
+  margin: 0 auto;
+  text-align: center;
+}
+#wrappContact {
+  margin: 0 auto;
+}
+.correct {
+  border: 1px solid black;
+}
+.form-group .incorrect {
+  border: 1px solid red;
+}

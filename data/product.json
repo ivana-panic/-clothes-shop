@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "Adidas Jacket T564",
+    "imageSrc": "jacketadidas.jpeg",
+    "price": {
+      "oldPrice": "34,10",
+      "newPrice": "29"
+    },
+    "freeDelivery": true,
+    "idBrand": 5,
+    "idCategory": 3,
+    "discount": null,
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "XL"
+      },
+      {
+        "name": "Color",
+        "value": "Red"
+      },
+      {
+        "name": "Composition",
+        "value": "Cotton"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Nike Shoes s34",
+    "imageSrc": "nikeshoes.jpeg",
+    "price": {
+      "oldPrice": null,
+      "newPrice": "29"
+    },
+    "freeDelivery": false,
+    "idBrand": 3,
+    "idCategory": 1,
+    "discount": 1,
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "M"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Composition",
+        "value": "silk"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gucci dress",
+    "imageSrc": "gucidr.jpeg",
+    "price": {
+      "oldPrice": "50",
+      "newPrice": "37"
+    },
+    "freeDelivery": true,
+    "idBrand": 1,
+    "idCategory": 5,
+    "discount": 2,
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Xl"
+      },
+      {
+        "name": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "Composition",
+        "value": "synthetics"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gucci Shoes",
+    "imageSrc": "guccishoes.webp",
+    "price": {
+      "oldPrice": "90",
+      "newPrice": "87"
+    },
+    "freeDelivery": true,
+    "idBrand": 1,
+    "idCategory": 1,
+    "discount": 2,
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "S"
+      },
+      {
+        "name": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "Composition",
+        "value": "synthetics"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Nike dress",
+    "imageSrc": "nikedress.webp",
+    "price": {
+      "oldPrice": "40",
+      "newPrice": "29"
+    },
+    "freeDelivery": false,
+    "idBrand": 3,
+    "idCategory": 5,
+    "discount": 1,
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "XS"
+      },
+      {
+        "name": "Color",
+        "value": "Red-white"
+      },
+      {
+        "name": "Composition",
+        "value": "cotton"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sergio Taccini jacket",
+    "imageSrc": "stjacket.jpeg",
+    "price": {
+      "oldPrice": "70",
+      "newPrice": "64"
+    },
+    "freeDelivery": false,
+    "idBrand": 4,
+    "idCategory": 3,
+    "discount": 1,
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "S"
+      },
+      {
+        "name": "Color",
+        "value": "black"
+      },
+      {
+        "name": "Composition",
+        "value": "cotton"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Prada pants",
+    "imageSrc": "pradapants.jpeg",
+    "price": {
+      "oldPrice": "70",
+      "newPrice": "64"
+    },
+    "freeDelivery": true,
+    "idBrand": 2,
+    "idCategory": 4,
+    "discount": 2,
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "XXL"
+      },
+      {
+        "name": "Color",
+        "value": "blue"
+      },
+      {
+        "name": "Composition",
+        "value": "cotton"
+      }
+    ]
+  }
+]

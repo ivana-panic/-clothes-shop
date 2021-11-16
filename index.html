@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="main.js"></script> -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="menu"></div>
+        <div class="col-lg-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-4" id="Category"></div>
+        <div class="col-4" id="Brand"></div>
+        <div class="col-4" id="sortDiv">
+          <label for="exampleFormControlSelect1">Name Sort</label>
+          <select id="sort" class="form-control">
+            <option value="0">Select</option>
+            <option value="nameAsc">Name-growing</option>
+            <option value="nameDesc">Name-descending</option>
+            <option value="priceAsc">Price-growing</option>
+            <option value="priceDesc">Price-descending</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="printProducts"></div>
+    <hr></hr>
+    <div class="row">
+      <div class="col-lg-8" id="wrappContact">
+        <div class="col span_2_of_3">
+          <div class="contact-form">
+            
+            <form method="post" id="cnt_form">
+            <h3>Contact Us</h3>
+            <div class="row">
+              <div class="col-md-4">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="form-name" placeholder="Your Name " value="" />
+              </div>
+              <div class="form-group">
+                <input type="text" name="txtEmail" class="form-control" id="form-email" placeholder="Your Email "
+                value="" />
+              </div>
+              <div class="form-group">
+                <input type="text" name="txtPhone" class="form-control" id="form-phone" placeholder="Your Phone Number "
+                value="" />
+              </div>
+              </div>
+              <div class="col-md-4">
+              <div class="form-group">
+                <textarea name="txtMsg" class="form-control" id="form-text" placeholder="Your Message *"
+                style="width: 100%; height: 132px;"></textarea>
+              </div>
+              
+              </div>
+              <div class="col-md-4" id="gender">
+              <p>Please select your gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+    
+            </div>
+            <div class="row">
+              <div class="col-lg-12" >
+              <div class="form-group">
+                <button type="button" id="buttonValidation">submit</button>
+              </div>
+              </div>
+            </div>
+              <div id="errors" class="col-md-12 errors">
+        
+              </div>
+            </div>
+            </form>
+           
+            
+            </div>
+          </div>
+      </div>
+    </div>
+   
+    <!--
+    <form class="row g-3 needs-validation" novalidate id="formReg">
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label" id="nameTitleId">First name</label>
+        <input type="text" class="form-control" id="validationCustom01" value="" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">State</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="button" id="buttonValidation">Click Me!</button>
+        <!--<button class="btn btn-primary" type="submit" id="buttonValidation">Submit form</button>-->
+        <!--
+      </div>
+    </form> 
+  -->
+    <!--SCRIPT TAGOVI-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script src="main2.js"></script>
+  </body>
+</html>
